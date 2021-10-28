@@ -6,7 +6,7 @@ let maxBottle = 7;
 let cans = [];
 let can;
 let canTaken = 0;
-let maxCan = 8;
+let maxCan = 7;
 let plastics = [];
 let plastic;
 let plasticTaken = 0;
