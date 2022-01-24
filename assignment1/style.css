@@ -1,18 +1,24 @@
 body{
-  color: white;
-  background-color: black
+  color: #0c2847;
+  background-color: white;
 }
 
 #wrapper{
   margin: auto;
-  padding: 150px 0px 100px 0px;
+  padding: 30px 40px 50px 40px;
   width: 500px;
+  border-style: solid;
+  border-color: #87a4fa;
+  border-width: 10px;
+  background-color: #d4e8ff;
+  border-radius: 20px;
 }
 
 .flex-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 500px;
 }
 
 
@@ -21,8 +27,10 @@ body{
 }
 
 .header{
-  color: red;
+  color: #a8165d;
   font-family: 'Raleway';
+  font-size: 40px;
+  margin-top: -10px
 }
 
 .minidesc{
@@ -40,5 +48,11 @@ width: 500px;
 }
 
 .image{
-  margin-left: -15px;  
+
+}
+
+.title{
+  font-family: 'Raleway';
+  text-align: center;
+  font-size: 60px;
 }
