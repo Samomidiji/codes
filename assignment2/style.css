@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   overflow: hidden;
   animation-name: scroll;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: cubic-bezier(.25, .67, .62, .35);
   animation-delay: 0s;
   animation-iteration-count: 1;
@@ -39,7 +39,7 @@ body {
 }
 
 .load-dots {
-  background-color: black;
+  background-color: red;
   height: 20px;
   margin: 0 10px;
   width: 20px;
@@ -73,11 +73,13 @@ body {
 @keyframes fadeIn {
   from {
     opacity: 0;
+    transform: rotate(360deg);
+    background-color: yellow;
   }
 }
 
 @keyframes scroll {
-  0%, 50% {
+  0%, 75% {
     height: 100vh;
   }
 
